@@ -1,0 +1,183 @@
+2016-04-09  rosdyana.kusuma@gameloft.com
+
+	* readme.txt: - [KRE8][NotifyMe] NotifyMe 1.0.0
+	* Client/authenticate.php, Client/check.php, Client/notifyme.sql: - [KRE8][NotifyMe] added
+	  spv/lead field in DB
+	  - [KRE8][NotifyMe] added spv/lead data in session
+	* Client/add.html, Client/login.php: - [KRE8][NotifyMe] delete old input handler
+	  - [KRE8][NotifyMe] add title in login page
+	* Client/index.php: - [KRE8][NotifyMe] need better sanitation
+	* Client/add.php, Client/add_action.php, script/run.bat: - [KRE8][NotifyMe] added new
+	  handler for input data
+	* script/create_report.bat, script/create_task.bat, script/run.bat: - [KRE8][NotifyMe]
+	  revert batch script
+	* changelog.txt: - [KRE8][NotifyMe] changelog
+	* script/create_report.bat, script/create_task.bat, script/run.bat: - [KRE8][NotifyMe] more
+	  parameter for script
+
+2016-04-04  rosdyana.kusuma@gameloft.com
+
+	* Client/config.php, Client/delete.php, Client/edit.php, Client/generate_report.php: -
+	  [KRE8][NotifyMe] Generate report for each user
+	* Client/add.php, Client/authenticate.php, Client/delete.php, Client/edit.php,
+	  Client/generate_report.php, Client/index.php, Client/login.php, Client/notifyme.sql: -
+	  [KRE8][NotifyMe] input,update,delete using specific user
+	  - [KRE8][NotifyMe] merge DB
+
+2016-04-03  rosdyana.kusuma@gameloft.com
+
+	* Client/authenticate.php, Client/index.php, Client/login.php, Client/notifyme.sql: -
+	  [KRE8][NotifyMe] create session for each user
+	  ! need support team about parameter value in Gameloft LDAP
+	  ! to-do merge DB
+	  ! to-do input,update,delete using specific user
+	  ! to-do control panel
+
+2016-03-31  rosdyana.kusuma@gameloft.com
+
+	* Client/generate_report.php, Client/notifyme.sql: - [KRE8][NotifyMe] only select today
+	  report data
+
+2016-02-11  rosdyana.kusuma@gameloft.com
+
+	* changelog.txt: - [KRE8][NotifyMe] modify hangelog format using svn2cl
+	* changelog.txt: - [KRE8][NotifyMe] changelog
+	* NotifyMe.pptx, readme.txt: - [KRE8][NotifyMe] update docs
+
+2016-02-10  rosdyana.kusuma@gameloft.com
+
+	* NotifyMe.pptx: - [KRE8][NotifyMe] update docs
+	* changelog.txt: + [KRE8][NotifyMe] added changelog
+	* Client/add.php, Client/generate_report.php, Client/index.php: * [KRE8][NotifyMe] empty
+	  data will create error inside xls file
+	  - [KRE8][NotifyMe] show "-" if its not bug data
+	* NotifyMe.pptx: - [KRE8][NotifyMe] update docs
+	* Client/check.php, Client/create_report.php: - [KRE8][NotifyMe] wrong file path
+
+2016-02-09  rosdyana.kusuma@gameloft.com
+
+	* Client/check.php, Client/create_report.php, Client/generate_report.php,
+	  Client/notifyme.sql, readme.txt: - [KRE8][NotifyMe] update readme.txt
+
+2016-02-03  rosdyana.kusuma@gameloft.com
+
+	* Client/delete.php, Client/index.php, Client/send_report.php: - [KRE8][NotifyMe] added
+	  delete all function
+	* Client/check.php, Client/PHPmailer, script/create_report.bat: - [KRE8][NotifyMe] changed
+	  flow , generate report at 4:30 then automatically open mail client
+
+2016-02-01  rosdyana.kusuma@gameloft.com
+
+	* NotifyMe.pptx: - [KRE8][NotifyMe] added some pictures
+	* readme.txt: - [KRE8][NotifyMe] added readme.txt
+	* NotifyMe.pptx: - [KRE8][NotifyMe] added some pictures
+	* Client/edit.php: - sqli prevention :)
+	* Client, Client/add.html, Client/add.php, Client/config.php, Client/create_report.php,
+	  Client/delete.php, Client/edit.php, Client/icon.png, Client/index.php,
+	  Client/jquery.popup.js, Client/notifyme.css, Client/PHPmailer,
+	  Client/PHPmailer/.gitignore, Client/PHPmailer/.scrutinizer.yml,
+	  Client/PHPmailer/.travis.yml, Client/PHPmailer/changelog.md,
+	  Client/PHPmailer/class.phpmailer.php, Client/PHPmailer/class.phpmaileroauth.php,
+	  Client/PHPmailer/class.phpmaileroauthgoogle.php, Client/PHPmailer/class.pop3.php,
+	  Client/PHPmailer/class.smtp.php, Client/PHPmailer/composer.json,
+	  Client/PHPmailer/composer.lock, Client/PHPmailer/docs,
+	  Client/PHPmailer/docs/Callback_function_notes.txt,
+	  Client/PHPmailer/docs/DomainKeys_notes.txt, Client/PHPmailer/docs/extending.html,
+	  Client/PHPmailer/docs/faq.html, Client/PHPmailer/docs/generatedocs.sh,
+	  Client/PHPmailer/docs/Note_for_SMTP_debugging.txt, Client/PHPmailer/docs/pop3_article.txt,
+	  Client/PHPmailer/examples, Client/PHPmailer/examples/code_generator.phps,
+	  Client/PHPmailer/examples/contents.html, Client/PHPmailer/examples/contentsutf8.html,
+	  Client/PHPmailer/examples/exceptions.phps, Client/PHPmailer/examples/gmail.phps,
+	  Client/PHPmailer/examples/gmail_xoauth.phps, Client/PHPmailer/examples/images,
+	  Client/PHPmailer/examples/images/phpmailer.png,
+	  Client/PHPmailer/examples/images/phpmailer_mini.png, Client/PHPmailer/examples/index.html,
+	  Client/PHPmailer/examples/mail.phps, Client/PHPmailer/examples/mailing_list.phps,
+	  Client/PHPmailer/examples/pop_before_smtp.phps, Client/PHPmailer/examples/scripts,
+	  Client/PHPmailer/examples/scripts/shAutoloader.js,
+	  Client/PHPmailer/examples/scripts/shBrushPhp.js,
+	  Client/PHPmailer/examples/scripts/shCore.js,
+	  Client/PHPmailer/examples/scripts/shLegacy.js,
+	  Client/PHPmailer/examples/scripts/XRegExp.js,
+	  Client/PHPmailer/examples/send_file_upload.phps, Client/PHPmailer/examples/sendmail.phps,
+	  Client/PHPmailer/examples/signed-mail.phps, Client/PHPmailer/examples/smtp.phps,
+	  Client/PHPmailer/examples/smtp_check.phps, Client/PHPmailer/examples/smtp_no_auth.phps,
+	  Client/PHPmailer/examples/ssl_options.phps, Client/PHPmailer/examples/styles,
+	  Client/PHPmailer/examples/styles/shCore.css,
+	  Client/PHPmailer/examples/styles/shCoreDefault.css,
+	  Client/PHPmailer/examples/styles/shCoreDjango.css,
+	  Client/PHPmailer/examples/styles/shCoreEclipse.css,
+	  Client/PHPmailer/examples/styles/shCoreEmacs.css,
+	  Client/PHPmailer/examples/styles/shCoreFadeToGrey.css,
+	  Client/PHPmailer/examples/styles/shCoreMDUltra.css,
+	  Client/PHPmailer/examples/styles/shCoreMidnight.css,
+	  Client/PHPmailer/examples/styles/shCoreRDark.css,
+	  Client/PHPmailer/examples/styles/shThemeAppleScript.css,
+	  Client/PHPmailer/examples/styles/shThemeDefault.css,
+	  Client/PHPmailer/examples/styles/shThemeDjango.css,
+	  Client/PHPmailer/examples/styles/shThemeEclipse.css,
+	  Client/PHPmailer/examples/styles/shThemeEmacs.css,
+	  Client/PHPmailer/examples/styles/shThemeFadeToGrey.css,
+	  Client/PHPmailer/examples/styles/shThemeMDUltra.css,
+	  Client/PHPmailer/examples/styles/shThemeMidnight.css,
+	  Client/PHPmailer/examples/styles/shThemeRDark.css,
+	  Client/PHPmailer/examples/styles/shThemeVisualStudio.css,
+	  Client/PHPmailer/examples/styles/wrapping.png, Client/PHPmailer/extras,
+	  Client/PHPmailer/extras/EasyPeasyICS.php, Client/PHPmailer/extras/htmlfilter.php,
+	  Client/PHPmailer/extras/ntlm_sasl_client.php, Client/PHPmailer/extras/README.md,
+	  Client/PHPmailer/get_oauth_token.php, Client/PHPmailer/language,
+	  Client/PHPmailer/language/phpmailer.lang-am.php,
+	  Client/PHPmailer/language/phpmailer.lang-ar.php,
+	  Client/PHPmailer/language/phpmailer.lang-az.php,
+	  Client/PHPmailer/language/phpmailer.lang-be.php,
+	  Client/PHPmailer/language/phpmailer.lang-bg.php,
+	  Client/PHPmailer/language/phpmailer.lang-br.php,
+	  Client/PHPmailer/language/phpmailer.lang-ca.php,
+	  Client/PHPmailer/language/phpmailer.lang-ch.php,
+	  Client/PHPmailer/language/phpmailer.lang-cz.php,
+	  Client/PHPmailer/language/phpmailer.lang-de.php,
+	  Client/PHPmailer/language/phpmailer.lang-dk.php,
+	  Client/PHPmailer/language/phpmailer.lang-el.php,
+	  Client/PHPmailer/language/phpmailer.lang-eo.php,
+	  Client/PHPmailer/language/phpmailer.lang-es.php,
+	  Client/PHPmailer/language/phpmailer.lang-et.php,
+	  Client/PHPmailer/language/phpmailer.lang-fa.php,
+	  Client/PHPmailer/language/phpmailer.lang-fi.php,
+	  Client/PHPmailer/language/phpmailer.lang-fo.php,
+	  Client/PHPmailer/language/phpmailer.lang-fr.php,
+	  Client/PHPmailer/language/phpmailer.lang-gl.php,
+	  Client/PHPmailer/language/phpmailer.lang-he.php,
+	  Client/PHPmailer/language/phpmailer.lang-hr.php,
+	  Client/PHPmailer/language/phpmailer.lang-hu.php,
+	  Client/PHPmailer/language/phpmailer.lang-id.php,
+	  Client/PHPmailer/language/phpmailer.lang-it.php,
+	  Client/PHPmailer/language/phpmailer.lang-ja.php,
+	  Client/PHPmailer/language/phpmailer.lang-ka.php,
+	  Client/PHPmailer/language/phpmailer.lang-ko.php,
+	  Client/PHPmailer/language/phpmailer.lang-lt.php,
+	  Client/PHPmailer/language/phpmailer.lang-lv.php,
+	  Client/PHPmailer/language/phpmailer.lang-ms.php,
+	  Client/PHPmailer/language/phpmailer.lang-nl.php,
+	  Client/PHPmailer/language/phpmailer.lang-no.php,
+	  Client/PHPmailer/language/phpmailer.lang-pl.php,
+	  Client/PHPmailer/language/phpmailer.lang-pt.php,
+	  Client/PHPmailer/language/phpmailer.lang-ro.php,
+	  Client/PHPmailer/language/phpmailer.lang-ru.php,
+	  Client/PHPmailer/language/phpmailer.lang-se.php,
+	  Client/PHPmailer/language/phpmailer.lang-sk.php,
+	  Client/PHPmailer/language/phpmailer.lang-sl.php,
+	  Client/PHPmailer/language/phpmailer.lang-sr.php,
+	  Client/PHPmailer/language/phpmailer.lang-tr.php,
+	  Client/PHPmailer/language/phpmailer.lang-uk.php,
+	  Client/PHPmailer/language/phpmailer.lang-vi.php,
+	  Client/PHPmailer/language/phpmailer.lang-zh.php,
+	  Client/PHPmailer/language/phpmailer.lang-zh_cn.php, Client/PHPmailer/LICENSE,
+	  Client/PHPmailer/PHPMailerAutoload.php, Client/PHPmailer/README.md, Client/PHPmailer/test,
+	  Client/PHPmailer/test/bootstrap.php, Client/PHPmailer/test/fakepopserver.sh,
+	  Client/PHPmailer/test/fakesendmail.sh, Client/PHPmailer/test/phpmailerLangTest.php,
+	  Client/PHPmailer/test/phpmailerTest.php, Client/PHPmailer/test/runfakepopserver.sh,
+	  Client/PHPmailer/test/test_callback.php, Client/PHPmailer/test/testbootstrap-dist.php,
+	  Client/PHPmailer/travis.phpunit.xml.dist, Client/PHPmailer/VERSION,
+	  Client/send_report.php, NotifyMe.pptx, script, script/create_report.bat,
+	  script/create_task.bat, script/run.bat: + initial commit for NotifyMe 001 beta version
+	* .: + create NotifyMe
+
